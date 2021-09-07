@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include connect_mqtt *.css
+recursive-include connect_mqtt *.csv
+recursive-include connect_mqtt *.html
+recursive-include connect_mqtt *.ico
+recursive-include connect_mqtt *.js
+recursive-include connect_mqtt *.json
+recursive-include connect_mqtt *.md
+recursive-include connect_mqtt *.png
+recursive-include connect_mqtt *.py
+recursive-include connect_mqtt *.svg
+recursive-include connect_mqtt *.txt
+recursive-exclude connect_mqtt *.pyc
